@@ -124,6 +124,7 @@ class _MyHomePageState extends State<MyHomePage> {
             tooltip: 'Decrement',
             child: const Icon(Icons.remove),
           ),
+          const SizedBox(width: 10.0,),
           FloatingActionButton(
             onPressed: _incrementCounter,
             tooltip: 'Increment',
